@@ -19,7 +19,7 @@ services:
     container_name: minha_api_node_kaweLobo
     restart: on-failure # Reinicia se falhar (ex: se o banco ainda estiver subindo)
     ports:
-      - "8050:8080"
+      - "8001:8080"
     environment:
       DB_HOST: db # Nome do serviço do banco na rede do Compose
       DB_USER: admin
