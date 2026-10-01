@@ -16,7 +16,7 @@ services:
   # Serviço 2: Aplicação Node.js
   app:
     build: .
-    container_name: minha_api_node_meunome
+    container_name: minha_api_node_kaweLobo
     restart: on-failure # Reinicia se falhar (ex: se o banco ainda estiver subindo)
     ports:
       - "8050:8080"
